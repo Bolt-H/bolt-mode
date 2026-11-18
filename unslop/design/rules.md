@@ -4,7 +4,7 @@ What makes a screen look generated or careless, and what to do instead.
 
 ## A look of its own
 
-- **No default look.** Default system font, soft grey cards, one accent gradient, pill buttons, emoji icons and everything centred in identical rounded boxes are what people call "AI slop". `refuse.md` lists the rest. Follow the project's chosen look (its `CLAUDE.md`, `work-mode/taste.md`). If there is none yet, propose two or three real directions and let the user choose.
+- **No default look.** Default system font, soft grey cards, one accent gradient, pill buttons, emoji icons and everything centred in identical rounded boxes are what people call "AI slop". `refuse.md` lists the rest. Follow the project's chosen look (its `CLAUDE.md`, `bolt-mode/taste.md`). If there is none yet, propose two or three real directions and let the user choose.
 - **Borrow the pattern, not the skin.** When the user points at another app ("like a popular chat app"), copy how it works and how it is proportioned: a round face of a good size, the name, one line under it. Draw it in the project's own look.
 
 ## Alignment, size and proportion

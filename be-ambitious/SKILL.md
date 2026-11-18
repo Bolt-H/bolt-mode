@@ -6,9 +6,9 @@ disable-model-invocation: true
 
 # Be ambitious
 
-Ambition here means a **better outcome per token**, not more tokens. If the user is on a limited plan (see `work-mode/SKILL.md`), a plan that costs three times as much and lands the same result has failed this skill. Method from Felix Rieseberg, "How to be more ambitious" (see NOTICE.md).
+Ambition here means a **better outcome per token**, not more tokens. If the user is on a limited plan (see `bolt-mode/SKILL.md`), a plan that costs three times as much and lands the same result has failed this skill. Method from Felix Rieseberg, "How to be more ambitious" (see NOTICE.md).
 
-The task is whatever follows `/be-ambitious`; with nothing after it, the user's latest request; with neither, ask for it in one line and stop. Reply in the reply language from `work-mode/SKILL.md`.
+The task is whatever follows `/be-ambitious`; with nothing after it, the user's latest request; with neither, ask for it in one line and stop. Reply in the reply language from `bolt-mode/SKILL.md`.
 
 ## The user's rules hold first
 

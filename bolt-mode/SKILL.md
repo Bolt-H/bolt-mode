@@ -1,6 +1,6 @@
 ---
-name: work-mode
-description: Your way of working. From one long prompt it writes a goal card, picks the playbook, runs to done without stopping to ask, keeps token cost low, and ends with one check list for you. Use for /work-mode or when you say "work mode".
+name: bolt-mode
+description: Your way of working. From one long prompt it writes a goal card, picks the playbook, runs to done without stopping to ask, keeps token cost low, and ends with one check list for you. Use for /bolt-mode or when you say "work mode".
 disable-model-invocation: true
 ---
 
@@ -95,7 +95,7 @@ Two failed fixes on the same idea means the premise is wrong. Write the premise 
 
 - Read each file once, and only the parts you need. Don't re-read what is already in context.
 - Subagents are for bulk reading or truly independent pieces, never for a small task.
-- A subagent's brief starts with `Read work-mode/worker.md (in your skills folder) first.`, then gives the card, the files to read, and the files it may change.
+- A subagent's brief starts with `Read bolt-mode/worker.md (in your skills folder) first.`, then gives the card, the files to read, and the files it may change.
 - Use the model and effort from the settings table above.
 - Keep long output (logs, tables) in a file, and link to it.
 - If the session is getting long, write a 10-line resume note and say a fresh session should continue.

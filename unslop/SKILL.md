@@ -16,7 +16,7 @@ Read only the files the work touches:
 | Anything that moves: page changes, sheets that open, presses, loading | `animation/rules.md` to check it; the `motion` skill to design new motion |
 | A request to critique or review a design | `critique.md`, instead of the steps below: report and ask, don't fix |
 
-A screen usually needs the first three. Also read `work-mode/taste.md`: it holds what the user already said they like and dislike.
+A screen usually needs the first three. Also read `bolt-mode/taste.md`: it holds what the user already said they like and dislike.
 
 ## How to run it
 
@@ -30,4 +30,4 @@ A screen usually needs the first three. Also read `work-mode/taste.md`: it holds
 
 A tell is anything a careful designer would not have shipped: a gap, a break, a jump, a word that says nothing, a piece nobody asked for. If you notice it, the user will too, so fix it rather than mention it. If you are unsure, do the plain, careful thing.
 
-The project's own look comes first. Where a project has chosen a look (see its `CLAUDE.md` and `work-mode/taste.md`), keep to it, and read these rules inside it: a pattern the look chose is its own, not a default. Contrast, 44px targets and visible focus hold under any look.
+The project's own look comes first. Where a project has chosen a look (see its `CLAUDE.md` and `bolt-mode/taste.md`), keep to it, and read these rules inside it: a pattern the look chose is its own, not a default. Contrast, 44px targets and visible focus hold under any look.

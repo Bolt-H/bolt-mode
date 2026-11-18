@@ -53,7 +53,7 @@ The table is a dated snapshot. Re-check anything newer than its date.
 
 ## Your project's look
 
-Features serve the project's chosen look (see its `CLAUDE.md` and `work-mode/taste.md`). A modern feature never brings a default browser look with it. Restyle `::backdrop`, `accent-color`, focus rings and `<select>` to match. For languages written without spaces (Thai, Chinese, Japanese), test `text-wrap` and `hyphens` on a real phone with real text.
+Features serve the project's chosen look (see its `CLAUDE.md` and `bolt-mode/taste.md`). A modern feature never brings a default browser look with it. Restyle `::backdrop`, `accent-color`, focus rings and `<select>` to match. For languages written without spaces (Thai, Chinese, Japanese), test `text-wrap` and `hyphens` on a real phone with real text.
 
 ## Known gaps
 

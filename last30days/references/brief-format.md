@@ -1,6 +1,6 @@
 # Brief format
 
-Audience: the user, someone building with Claude Code. Short sentences, plain words, English for product names and quoted text. Write the brief in the reply language set in `work-mode/SKILL.md` (translate the headings below into it). No emojis, no em or en dashes, digits 0-9 only.
+Audience: the user, someone building with Claude Code. Short sentences, plain words, English for product names and quoted text. Write the brief in the reply language set in `bolt-mode/SKILL.md` (translate the headings below into it). No emojis, no em or en dashes, digits 0-9 only.
 
 ## Shape
 

@@ -1,6 +1,6 @@
 # My taste
 
-Facts the user said or chose, with dates. Add one line each time they react to a design or to wording. Never record a guess. `work-mode`, `idea-interview` and `unslop` read this file before they design anything, so they don't ask what is already known.
+Facts the user said or chose, with dates. Add one line each time they react to a design or to wording. Never record a guess. `bolt-mode`, `idea-interview` and `unslop` read this file before they design anything, so they don't ask what is already known.
 
 ## What I hold to
 - (example) I want work that looks finished on the first look, not fixed later. (2026-01-01)

@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Make it mine
 
-Tune the kit (`work-mode`, `idea-interview`, `unslop`, `motion`, `modern-web`, `last30days`, `be-ambitious`) to the person running it. Use the language the user writes in for this whole conversation. Keep every step short and friendly; the user may be new to this.
+Tune the kit (`bolt-mode`, `idea-interview`, `unslop`, `motion`, `modern-web`, `last30days`, `be-ambitious`) to the person running it. Use the language the user writes in for this whole conversation. Keep every step short and friendly; the user may be new to this.
 
 Rules for this skill:
 - Edit only files inside `~/.claude/skills/` that belong to this kit. Never touch other skills, `settings.json`, or any project.
@@ -52,10 +52,10 @@ Find the installed kit in `~/.claude/skills/` (on Windows `%USERPROFILE%\.claude
 
 | File | Change |
 |---|---|
-| `work-mode/SKILL.md`, "Your settings" table | Fill in **Name to use**, **Reply language**, **Plan**, **Default model and effort** (see below), **Asking vs doing**, **Testing**, **Projects and stack**. |
-| `work-mode/SKILL.md`, playbook table | Add or reword rows to match what they ask for most (for example a "Study" playbook for a learner, a "Write" playbook for docs) and drop rows they will never use. Keep the table to about 8 rows. |
-| `work-mode/taste.md` | Replace the example lines with facts the user said in Step 3 question 5, dated today. Only what they said, never a guess. |
-| `work-mode/SKILL.md`, sections 5 and 6 | Rewrite the testing rule and the report wording to match their answer to question 7. |
+| `bolt-mode/SKILL.md`, "Your settings" table | Fill in **Name to use**, **Reply language**, **Plan**, **Default model and effort** (see below), **Asking vs doing**, **Testing**, **Projects and stack**. |
+| `bolt-mode/SKILL.md`, playbook table | Add or reword rows to match what they ask for most (for example a "Study" playbook for a learner, a "Write" playbook for docs) and drop rows they will never use. Keep the table to about 8 rows. |
+| `bolt-mode/taste.md` | Replace the example lines with facts the user said in Step 3 question 5, dated today. Only what they said, never a guess. |
+| `bolt-mode/SKILL.md`, sections 5 and 6 | Rewrite the testing rule and the report wording to match their answer to question 7. |
 | `idea-interview`, `unslop`, `be-ambitious`, `last30days` | Only if the reply language is not English: make sure the "reply in the reply language" lines stay and that the default example phrases match their language. Do not translate the whole skill. Add their name where a "the user" line reads awkwardly, only if they gave one. |
 | `modern-web/SKILL.md` | If their stack is not a web app, add one line at the top: "Only use this skill for web UI work." If it is web, name the target browsers they care about. |
 | `motion/references/project-motion.md` | Leave as the template. Mention in the summary that they can fill it in for their first project. |
@@ -72,7 +72,7 @@ Find the installed kit in `~/.claude/skills/` (on Windows `%USERPROFILE%\.claude
 For each file you changed, show a **short before/after** (3-6 lines each, just the changed lines), like:
 
 ```
-work-mode/SKILL.md  (settings table)
+bolt-mode/SKILL.md  (settings table)
 before: | Reply language | the language the user writes in |
 after:  | Reply language | English |
 ```
@@ -86,11 +86,11 @@ Based on what you actually saw in their prompts (not generic advice), give 2-3 t
 - **Many corrections** -> add a "Not allowed" line and one example of the output they want.
 - **One long mixed prompt asking for 4 things** -> number the goals and say which matters most.
 - **Vague words** ("make it nicer") -> name one concrete thing ("bigger title, one accent colour").
-- **Always asking for everything at once** -> use `/work-mode` and let it run to the end.
+- **Always asking for everything at once** -> use `/bolt-mode` and let it run to the end.
 - **Never asks for proof** -> add "Proof: show me the test output or a screenshot."
 
 If there was no prompt data, give the 3 general tips from the README ("goal, done when, not allowed, proof") instead, and say that is what you did.
 
 ## Step 6. Close
 
-End with 3 lines: what you changed, how to retune ("run `/make-it-mine` again any time"), and the one thing to try next (`/work-mode` with a real task).
+End with 3 lines: what you changed, how to retune ("run `/make-it-mine` again any time"), and the one thing to try next (`/bolt-mode` with a real task).
